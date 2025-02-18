@@ -31,7 +31,7 @@ func (t *Todos) Add(task string) {
 func (t *Todos) Complete(index int) error {
 	ls := *t
 	if index <= 0 || index > len(ls) {
-		return errors.New("Неверный Индекс")
+		return errors.New("ERROR")
 	}
 
 	ls[index-1].CompletedAt = time.Now()
@@ -43,7 +43,7 @@ func (t *Todos) Complete(index int) error {
 func (t *Todos) Delete(index int) error {
 	ls := *t
 	if index <= 0 || index > len(ls) {
-		return errors.New("Неверный Индекс")
+		return errors.New("ERROR")
 	}
 
 	*t = append(ls[:index-1], ls[index:]...)
