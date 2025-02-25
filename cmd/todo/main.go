@@ -18,10 +18,10 @@ const (
 
 func main() {
 
-	add := flag.Bool("add", false, "Добавить новую задачу")
-	complete := flag.Int("complete", 0, "Завершено?")
-	del := flag.Int("del", 0, "Удалить")
-	list := flag.Bool("list", false, "Лист")
+	add := flag.Bool("add", false, "добавить")
+	complete := flag.Int("complete", 0, "завершить")
+	del := flag.Int("del", 0, "удалить")
+	list := flag.Bool("list", false, "лист")
 
 	flag.Parse()
 
@@ -93,7 +93,7 @@ func getInput(r io.Reader, args ...string) (string, error) {
 	text := scanner.Text()
 
 	if len(text) == 0 {
-		return "", errors.New("empty todo is not allowed")
+		return "", errors.New("empty not allowed")
 	}
 
 	return text, nil
