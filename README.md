@@ -1,26 +1,50 @@
-# GolangToDoListConsole by VechniyRabotnnik
-
-## This code was made with the help of guides for self-learning purposes! / Данный код был сделан с помощью гайдов в целях самообучения!
+# Golang ToDoList Console by VechniyRabotnnik
 
 ![pic](work.png)
 
+---
 
-## Info/Информация
+## 📖 Info / Информация
 
-# English
+### 🇺🇸 English
 
-This code works in the bash or Powershell console. This is a simple task list that you can edit using the commands below.
+This code runs in the bash or PowerShell console. It’s a simple task list that you can manage using the commands below:
 
-+ `./todo -list` : Shows a table with tasks
-+ `./todo -add` : Add a task
-+ `./todo -del=id` : Delete a task
-+ `./todo -complete=id` : Complete the task
+- `./todo -list` 📝 : Show a table with tasks  
+- `./todo -add` ➕ : Add a new task  
+- `./todo -del=id` ❌ : Delete a task by its ID  
+- `./todo -complete=id` ✅ : Mark a task as completed  
 
-# Russian
+---
 
-Этот код работает в консоли bash или Powershell. Это простой список задач, который вы можете редактировать с помощью приведенных ниже команд.
+### 🇷🇺 Русский
 
-+ `./todo -list` : Показывает таблицу с задачами
-+ `./todo -add` : Добавить задачу
-+ `./todo -del=id` : Удалить задачу
-+ `./todo -complete=id` : Завершить задачу
+Этот код работает в консоли bash или PowerShell. Это простой список задач, который можно редактировать с помощью команд ниже:
+
+- `./todo -list` 📝 : Показывает таблицу с задачами  
+- `./todo -add` ➕ : Добавить задачу  
+- `./todo -del=id` ❌ : Удалить задачу по ID  
+- `./todo -complete=id` ✅ : Завершить задачу  
+
+---
+
+## 🚀 Usage / Использование
+
+```bash
+./todo -add
+./todo -list
+./todo -del=3
+./todo -complete=2
+```
+
+---
+
+## 🎯 Цель / Purpose
+
+Этот проект учебный пример на языке Go, демонстрирующий работу с консольными командами и файлами для хранения задач.
+
+---
+
+## ✨ Enjoy managing your tasks! / Наслаждайтесь управлением задачами!
+
+
